@@ -5,7 +5,7 @@ load_dotenv()
 
 class Config:
     #OpenAI
-    OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+    OPENAI_API_KEY = os.getenv(OPENAI_KEY) #stored in secret manager
     OPENAI_MODEL = "gpt-3.5-turbo"
 
     #PATHS
