@@ -1,4 +1,3 @@
-# run.py
 import argparse
 from src.proofread import proofread_text
 from src.similarity import SimilarityCalculator
